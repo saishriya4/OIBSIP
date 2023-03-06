@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+.container p {
+    font-size: 45px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EBECF0;
+    height: 100vh;
+}
+
+.calc {
+    display: inline-block;
+    background-color: #0a7ebd;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+input {
+    border-radius: 15px;
+    font-size: 30px;
+    width: 342px;
+    height: 55px;
+    border: 2px solid black;
+    background-color: #6fe6fd;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #6fe6fd;
+    width: 66px;
+    height: 49px;
+}
